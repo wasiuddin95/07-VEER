@@ -1,0 +1,41 @@
+/*@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');*/
+
+
+
+@media (max-width: 992px) { 
+		
+}
+@media (max-width: 768px) { 
+	.pb-20{
+        padding-bottom: 20px;
+    }
+}
+/*=======================================*/
+@media (max-width: 576px) { 
+
+	.pb-20{
+        padding-bottom: 20px;
+    }
+	.footicon2 ul li:first-child{
+    padding-top: 25px;
+    padding-bottom: 42px;
+	}
+	.footicon2 ul li:nth-child(2){
+    padding-bottom: 22px;
+	}	
+}
+/*======================================*/
+@media (max-width: 320px) { 
+	.footicon2 ul li:first-child{
+    padding-top: 25px;
+    padding-bottom: 62px;
+	}
+	.footicon2 ul li:nth-child(2){
+    padding-bottom: 42px;
+	}
+    .pb-20{
+        padding-bottom: 20px;
+    }
+	
+}
+	

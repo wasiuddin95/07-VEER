@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Poppins:200,300,400,500,600,700,800,900&display=swap');
+/*Google font*/
+/*
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+ul,ol{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+img{
+    border: none;
+    vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6,a,p,ul,ol,li,img,.navbar{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.pl-38{
+    padding-left: 38px;
+}
+.pr-35{
+    padding-right: 35px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+
+/*Common Heading*/
+
+.header{
+
+}
+.header .navbar{
+    /*padding: 28px 0px 28px;*/
+}
+.header img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header .nav-item{}
+.header .nav-item .nav-link{
+    color: #0e1424;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+
+}
+.header .nav-item .nav-link:hover{
+    color: #31d7ce;
+}
+/*.header .active{
+    color: #64c6b0;
+}*/
+/*NAVIGATION CSS END*/
+
+.slider{
+    background: url("../image/banner.jpg") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    /*margin-top: 144px;*/
+}
+
+.slider2 h1{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 320px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    color: #31d7ce;
+    letter-spacing: 15px;
+}
+
+.slider-btn{
+    padding-bottom: 335px;
+}
+.slider-btn a{
+    padding: 18px 43px 18px 36px;
+    border: 2px solid rgba(255, 255, 255,0.5);
+    display: inline-block;
+    color: #31d7ce;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    transition: all linear .3s;
+    border-radius: 50px;
+    background: transparent;
+    text-transform: uppercase;
+}
+.slider-btn a:hover{
+    background: #31d7ce;
+    border: 2px solid rgba(255, 255, 255,0.5);
+    color: #fff;
+}
+
+/*SLIDER CSS END*/
+
+.about{}
+.about .about-left{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.about .about-right{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.about .about-right h4{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #252525;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+}
+.about .about-right p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    color: #2f2f2f;
+    padding-bottom: 30px;
+}
+.about .about-right .about-btn{}
+.about .about-right .about-btn a{
+    padding: 13px 28px 13px 25px;
+    border: 1px solid #8ed8c7;
+    display: inline-block;
+    color: #e8f4f0;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    transition: all linear .3s;
+    border-radius: 50px;
+    background: #0dac88;
+}
+.about .about-right .about-btn a:hover{
+    
+    border: 1px solid #8ed8c7;
+    color: #0dac88;
+    background: transparent;
+}
+
+
+/*###############*/
+.service{
+    background: #fff;
+}
+.service .service-head{}
+.service .service-head h4{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 30px;
+    color: #252525;
+}
+
+.service-con{
+    padding-top: 55px;
+    padding-bottom: 55px;
+    margin-bottom: 170px;
+    transition: all linear .3s;
+}
+.service-con:hover{
+    box-shadow: 0px 0px 5px rgb(36, 221, 179,0.5);
+    transition: all linear .4s;
+}
+.service-con .service-icon{
+    height: 70px;
+    width: 70px;
+    background: #24ddb3;
+    border-radius: 10px;
+    margin-left: 35px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+.service-con .service-icon img{
+    /*margin: 0 auto;*/
+}
+.service-con .service-text{}
+.service-con .service-text h6{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #444444;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+.service-con .service-text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #555555;
+    margin-right: 20px;
+}
+
+
+/*SERVICE CSS END*/
+
+.portfolio{
+    padding-bottom: 150px;
+}
+.portfolio .port-head{}
+.portfolio .port-head h4{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 60px;
+    color: #252525;
+    text-transform: capitalize;
+    
+}
+.port-con{
+    position: relative;
+}
+.port-con .port-overlay{
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: rgba(0,0,0,.6);
+    top: 0px;
+    right: 0px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+.port-con:hover .port-overlay{
+    opacity: 1;
+    width: 100%;
+}
+.port-con .port-overlay a{
+    color: #fff;
+}
+.port-con .port-overlay a:hover{
+    color: #24ddb3;
+    transform: rotate(360deg);
+    transition: all linear 0.3s;
+}
+
+/*##########*/
+
+.fun-fact{
+    background: url("../image/fun-fact.jpg") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;  
+}
+.fun-fact .fun-con{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.fun-fact .fun-con h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.fun-fact .fun-con p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #d4d4d4;
+    text-transform: capitalize;
+    
+}
+/*##############*/
+
+.blogs{
+    padding-top: 150px;
+    padding-bottom: 100px;
+
+}
+.blogs .blog-head{}
+.blogs .blog-head h4{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 30px;
+    color: #252525;
+    text-transform: capitalize;
+    
+}
+.blogs .blog-con{}
+.blogs .blog-con img{}
+.blogs .blog-con h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+.blogs .blog-con p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 30px;
+    color: #666666;
+}
+.blogs .blog-con h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #555555;
+    padding-bottom: 50px;
+}
+
+/*###########*/
+
+.work-with{
+    background: #50d18d;
+}
+.work-with .work-con{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+
+}
+.work-with .work-con h4{
+   font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 500; 
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 15px;
+}
+.work-with .work-con .work-btn{}
+.work-with .work-con .work-btn a{
+    padding: 20px 35px 20px 35px;
+    display: inline-block;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all linear .3s;
+    border-radius: 50px;
+    background: #4be694;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;   
+}
+.work-with .work-con .work-btn a:hover{
+    color: #4be694;
+    background: #fff;
+}
+/*###################*/
+.footer{
+    background: #000415;
+}
+.footer .foot-con{
+    padding-top: 135px;
+    padding-bottom: 60px;
+}
+.footer .foot-con p{
+    font-size: 18px;
+    font-weight: 400;
+   font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.div1px{
+    width: 1px;
+    height: 167px;
+    background: #393939;
+    margin-top: 85px;
+}
+
+.foot-right{
+    padding-top: 110px;
+}
+.foot-right .col-1 a i{
+    color: #fff;
+}
+
+.foot-right .right-p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+
+.foot-end{}
+.foot-end p{
+    color: #818181;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
